@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+/.vs/config/applicationhost.config
+/.vs/scheduler/DesignTimeBuild/.dtbcache
+/.vs/scheduler/v15/Server/sqlite3/storage.ide-wal
+/.vs/scheduler/v15/Server/sqlite3/storage.ide-shm
+/.vs/scheduler/v15/Server/sqlite3/storage.ide
+/.vs/scheduler/v15/Server/sqlite3/db.lock
+/.vs/scheduler/v15/.suo
+/scheduler/bin/Debug/netcoreapp2.0/scheduler.runtimeconfig.json
+/scheduler/bin/Debug/netcoreapp2.0/scheduler.runtimeconfig.dev.json
+/scheduler/bin/Debug/netcoreapp2.0/scheduler.pdb
+/scheduler/bin/Debug/netcoreapp2.0/scheduler.dll
+/scheduler/bin/Debug/netcoreapp2.0/scheduler.deps.json
+/scheduler/bin/Debug/netcoreapp2.0/nlog.config
+/scheduler/bin/Debug/netcoreapp2.0/nlog-all-2019-01-02.log
+/scheduler/obj/Debug/netcoreapp2.0
+/scheduler/obj
+/scheduler/_PublishedWebsites/NetCoreWebApp
+*.txt
+/scheduler/bin/Debug/netcoreapp2.0/nlog-all-2019-01-29.log
