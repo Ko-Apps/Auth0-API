@@ -12,7 +12,7 @@ namespace scheduler.Controllers
     [Route("/")]
     public class OAuthController : Controller
     {
-        [HttpGet("/public")]
+        [HttpGet("public")]
         public JsonResult Public ()
         {
             return new JsonResult("Hello from a public API!");
@@ -40,15 +40,15 @@ namespace scheduler.Controllers
             });
         }
 
-        //[HttpGet]
-        //[Route("admin")]
-        //[Authorize(Roles="admin")]
-        //public IActionResult Admin()
-        //{
-        //    return Json(new
-        //    {
-        //        Message = "Hello from an admin API."
-        //    });
-        //}
+        [HttpGet]
+        [Route("admin")]
+        [Authorize(Roles = "admin")]
+        public IActionResult Admin()
+        { 
+            return Json(new
+            {
+                Message = "Hello from an admin API."
+            });
+        }
     }
 }
